@@ -1,0 +1,33 @@
+{
+  "name": "DDDPractice",
+  "version": "1.0.0",
+  "description": "Trying out Domain Driven Design with an example application",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register test/**/*.test.ts",
+    "dev": "tsc-watch --onSuccess \"node ./dist/server.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamedr20/DDDPractice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohamedr20/DDDPractice/issues"
+  },
+  "homepage": "https://github.com/mohamedr20/DDDPractice#readme",
+  "dependencies": {
+    "typescript": "^3.5.1"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.1",
+    "ts-node": "^8.2.0",
+    "tsc-watch": "^2.2.1"
+  }
+}
